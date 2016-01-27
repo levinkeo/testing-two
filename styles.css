@@ -1,0 +1,98 @@
+html {
+  background: #1D1F20;
+  font-family: Monospace;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: #4D4D50;
+  display: block;
+  width: 15%;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 4em;
+  color: white;
+  border-bottom: 15px solid #343436;
+  border-top: 3px solid red;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+button:active {
+  border-bottom: none;
+  margin-top: 15px;
+}
+
+#kB{
+  width: 50%;
+  background: #4D4D50;
+  margin: 0 auto;
+  color: white;
+  border-bottom: 15px solid #343436;
+  border-top: 3px solid red;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.tile-key {
+  position:relative;
+  display: inline-block;
+  font-size: 1.5em;
+  text-align: center;
+  background: #ccc;
+  padding: 2%;
+  margin: 1px;
+  height: 20px;
+  width: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 5px black;
+}
+
+.tile-key:active {
+  top: 5px;
+  -webkit-box-shadow: none;
+}
+
+.tile-key:selection {
+  background: none;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.kB1, .kB2, .kB3, .kB4, .kB5 {
+  text-align: center;
+}
+
+.tile-key-SHIFT, .tile-key-RSHIFT {
+  width: 100px
+}
+
+.tile-key-RETURN, .tile-key-CAPS {
+  width:70px
+}
+
+.tile-key-TAB, .tile-key-BACKSPACE, .tile-key-CTRL, .tile-key-RCTRL, .tile-key-CMD, .tile-key-RCMD {
+  width: 60px;
+}
+
+.tile-key-SPACE {
+  width: 300px;
+}
+
+.tile-key-OPT, .tile-key-ROPT {
+  width: 30px;
+}
+
+
